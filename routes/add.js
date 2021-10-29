@@ -5,7 +5,6 @@ const router = Router();
 
 const filterInfo = (req) => {
     const arrValues = Object.values(req.body);
-    console.log(arrValues);
     const keys = Object.keys(req.body).map((c, i) => {
         if (c.indexOf("box") === 0) {
             if (arrValues[i] instanceof Array) {

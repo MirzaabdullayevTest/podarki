@@ -218,7 +218,8 @@ main .mainTextL {
 .category .categoryBody .card .cardTitle {
   text-transform: uppercase;
   color: #fff;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .category .categoryBody .card .cardWeight {
@@ -255,7 +256,7 @@ main .mainTextL {
   width: 75%;
   margin: auto;
   height: 1.6px;
-  background-color: #00013a;
+  background-color: #fff;
   margin-bottom: 20px;
 }
 
